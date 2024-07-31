@@ -1,0 +1,108 @@
+<!Doctype html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="./assets/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="hollow">
+      <header>
+        <h1 id="title">Physical Fitness Survey</h1>
+        <p class="p1" id="description" class="p-text">Please take the time to answer some questions about your physical fitness habits.</p>
+      </header>
+      <form id="survey-form">
+        <div>
+          <label for="name" id="name-label">Name:
+            <input id="name" type="text" placeholder="enter name" required>
+            </input>
+          </label>
+        </div>
+        <div>
+          <label for="email" id="email-label">E-mail:
+            <input id="email" type="email" placeholder="enter email" required>
+            </input>
+            <!-- This is quite enojoyable -->
+          </label>
+        </div>
+        <div>
+          <label for="number" id="number-label"> Age: (optional)
+            <input id="number" type="number" min="18" max="120" pattern="0-9" placeholder="0">
+            </input>
+          </label>
+        </div>
+        <div class="days">
+          <label for="dropdown"> How many days do you exercise per week?
+            <select id="dropdown" required>
+              <option value="1 or less">0-1 days</option>
+              <option value="2-3 days">2-3 days</option>
+              <option value="4-5 days">4-5 days</option>
+              <option value="6-7 days">6-7 days</option>
+            </select>
+        </div>
+        <div class="water">
+          <p>How much water do you drink daily?</p>
+        </div>
+        <div>
+          </label>
+          <label for="32oz">0 - 32 ounces
+            <input type="radio" id="32oz" name="water" value="32oz">
+            </input>
+          </label>
+        </div>
+        <div>
+          <label for="64oz">32 - 64 ounces
+            <input type="radio" id="64oz" name="water" value="64oz">
+            </input>
+          </label>
+        </div>
+        <div>
+          <label for="96oz">64 ounces or more
+            <input type="radio" id="96oz" name="water" value="96oz">
+            </input>
+          </label>
+        </div>
+        <div class="goals">
+          <p>What are your exercise goals?</p>
+        </div>
+        <div>
+          <label for="goal1">Fat loss
+            <input type="checkbox" id="goal1" name="goal1" value="walk">
+            </input>
+          </label>
+        </div>
+        <div>
+          <label for="goal2">Improved cardio
+            <input type="checkbox" id="goal2" name="goal2" value="run">
+            </input>
+          </label>
+        </div>
+        <div>
+          <label for="goal3">Tone muscle
+            <input type="checkbox" id="goal3" name="goal3" value="highrep">
+            </input>
+          </label>
+        </div>
+        <div>
+          <label for=goal4>Build muscle
+            <input type="checkbox" id="goal4" name="goal4" value="lowrep">
+            </input>
+          </label>
+        </div>
+        <div class="label">
+          <label for="text">What is your biggest obstacle to achieving your physical fitness goals?</label>
+        </div>
+        <div class="textarea">
+          <textarea name="openquest" id="text" cols="50" rows="5">
+        </textarea>
+          </label>
+        </div>
+        <input type="submit" id="submit">
+        </input>
+    </div>
+    </form>
+  </div>
+</body>
+
+</html>
