@@ -1,0 +1,51 @@
+html {
+    font-family: Garamond, serif;
+    font-size: 18;
+    text-align: center;
+    background-color: black;
+  }
+  
+  #title {
+    font-size: 44;
+  }
+  
+  .p1 {
+    font-family: Times, serif;
+    font-style: italic;
+    font-size: 17;
+    padding-bottom: 12px;
+  }
+  
+  .days {
+    padding-top: 30px;
+    padding-bottom: 15px;
+  }
+  
+  .water {
+    margin-bottom: -12px;
+  }
+  
+  .goals {
+    margin-bottom: -12px;
+    margin-top: 28px;
+  }
+  
+  .textarea {
+    padding-top: 10px;
+    padding-bottom: 5px;
+  }
+  
+  .label {
+    padding-top: 8px;
+  }
+  
+  div {
+    margin-top: 4px;
+  }
+  
+  .container {
+    background: linear-gradient(45deg, rgb(203, 254, 228), rgb(47, 170, 255));
+    border-style: double;
+    border-radius: 1%;
+  }
+  
